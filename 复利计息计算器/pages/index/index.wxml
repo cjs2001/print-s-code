@@ -1,0 +1,14 @@
+<view class='box'>
+  <view class='title'>利息计算器</view>
+  
+  <input placeholder="请输入本金" placeholder-class="placeholder" bindinput='principalInput' type='number'></input>
+  <input placeholder="请输入利率" placeholder-class="placeholder" bindinput='interestrateInput' type='number'></input>
+  <input placeholder="请输入存取年期" placeholder-class="placeholder" bindinput='accessperiodInput' type='number'></input>
+  <button bindtap='mysubmit'>计算</button>
+  <view  class='content'>
+    <view class='content-item'>每月本金：{{principal}}</view>
+    <view class='content-item'>利率:{{interestrate}}</view>
+    <view class='content-item'>总本金:{{Totalprincipal}}</view>
+ </view>
+</view>
+--------------------------------------------201923010101陈金硕
