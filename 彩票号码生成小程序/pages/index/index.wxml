@@ -1,0 +1,18 @@
+<!--pages/kj/RandomSum/index.wxml-->
+<view class="box1">
+	<view class="title">彩票号码生成小程序</view>
+</view>
+<view class="box">
+	<view class="context">
+		<view class="lottery1">{{a}}</view>
+		<view class="lottery2">{{b}}</view>
+		<view class="lottery3">{{c}}</view>
+		<view class="lottery4">{{d}}</view>
+		<view class="lottery5">{{e}}</view>
+		<view class="lottery6">{{f}}</view>
+		<view class="lottery7">{{g}}</view>
+	</view>
+	<button bindtap="mysubmit">生成号码</button>
+</view>
+
+-------------------------------------201923010101陈金硕

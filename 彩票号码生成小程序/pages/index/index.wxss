@@ -1,0 +1,64 @@
+/**index.wxss**/
+.box1{
+    line-height:100rpx;
+    text-align: center;
+    background-color:rgb(0, 255, 242);
+}
+.context{
+    display: flex;
+    text-align: center;
+    line-height: 100rpx;
+    font-weight: bolder;
+    color: aliceblue;
+  }
+  .lottery1{
+    flex-grow: 2;
+    background-color: rgb(62, 224, 57);
+    border-style:solid;
+    border-width:10px;
+  }
+  .lottery2{
+    flex-grow: 2;
+    background-color: rgb(226, 77, 8);
+    border-style:solid;
+    border-width:10px;
+  }
+  .lottery3{
+    flex-grow: 2;
+    background-color: rgb(4, 0, 248);
+    border-style:solid;
+    border-width:10px;
+  }
+  .lottery4{
+    flex-grow: 2;
+    background-color: rgb(27, 204, 30);
+    border-style:solid;
+    border-width:10px;
+  }
+  .lottery5{
+    flex-grow: 2;
+    background-color: rgb(5, 10, 31);
+    border-style:solid;
+    border-width:10px;
+  }
+  .lottery6{
+    flex-grow: 2;
+    background-color: rgb(152, 0, 89);
+    border-style:solid;
+    border-width:10px;
+  }
+  .lottery7{
+    flex-grow: 2;
+    background-color: rgb(102, 127, 33);
+    border-style:solid;
+    border-width:10px;
+  }
+  button{
+    background-color: rgb(248, 6, 18);
+  }
+  .front{
+    margin-top:30px ;
+    margin-bottom: 30px;
+    font-size: larger;
+  }
+  
