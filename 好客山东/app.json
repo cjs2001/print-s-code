@@ -1,0 +1,51 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/jiaoxue/jiaoxue",
+        "pages/keyan/keyan",
+        "pages/zixun/zixun",
+        "pages/guanyu/guanyu"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "全国旅游欢迎您",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#000",
+        "selectedColor": "#00f",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "/images/home-off.png",
+                "selectedIconPath": "/images/shandong.png"
+            },
+            {
+                "pagePath": "pages/jiaoxue/jiaoxue",
+                "text": "泰山",
+                "iconPath": "/images/jiaoxue-off.png",
+                "selectedIconPath": "/images/taishan.png"
+            },
+            {
+                "pagePath": "pages/keyan/keyan",
+                "text": "泉城",
+                "iconPath": "/images/keyan-off.png",
+                "selectedIconPath": "/images/quancheng.png"
+            },
+            {
+                "pagePath": "pages/zixun/zixun",
+                "text": "肥城",
+                "iconPath": "/images/zixun-off.png",
+                "selectedIconPath": "/images/feicheng.png"
+            },
+            {
+                "pagePath": "pages/guanyu/guanyu",
+                "text": "三孔",
+                "iconPath": "/images/guanyu-off.png",
+                "selectedIconPath": "/images/sankong.png"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json"
+}
